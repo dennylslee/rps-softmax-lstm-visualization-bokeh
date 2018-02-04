@@ -47,9 +47,12 @@ The 2nd section are pairwise comparison between each move (i.e. rock-paper, pape
 ![image stack layer](https://github.com/dennylslee/rps-softmax-lstm-visualization-bokeh/blob/master/3ways-histogram.png). 
 
 2) the winning margin plots show three 3-ways comparison plots - one for each winning move. This shows the differences between what the LSTM thinks would win (i.e. its highest probability selection) with respect to the next two moves' averages.  This "margin" reflects a form of confidence for that predicted move. 
+
+![image stack layer](https://github.com/dennylslee/rps-softmax-lstm-visualization-bokeh/blob/master/pairwise-win-margin.png). 
+
 3) the last set of plots are pairwise comparisons. In particular, the "identity line" (y = x) is the line which separate which move has the higher probability value.  The centroid calculation, which is a simple average of the winning cluster, represents the average of how strong the LSTM thinks that move is with respect to the other move in the pair. Futhermore, an eculidean distance is calculated to the identity line.  The further that distance, the more confident effectively the LSTM is predicting that move.  Since bokeh does not do 3D plot at the time of writing, these comparisons are done on a pair-wise basis.
 
-![image stack layer](). 
+![image stack layer](https://github.com/dennylslee/rps-softmax-lstm-visualization-bokeh/blob/master/pairwise-comparison.png). 
 
 ## Impression with Bokeh
 
