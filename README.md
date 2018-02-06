@@ -10,6 +10,13 @@ The secondary objective of this project is to learn the general ability of the v
 
 The main program for this project is in here: [rps-predict-bokeh.py](https://github.com/dennylslee/rps-softmax-lstm-visualization-bokeh/blob/master/rps-predict-bokeh.py)
 
+After bokeh is installed on the local host, the program can be run by executing the following command in the terminal:
+
+```
+bokeh serve --show rps-predict-bokeh.py
+```
+
+
 For reference to softmax, see [wiki](https://en.wikipedia.org/wiki/Softmax_function) and a quick tutorial at [pyimagesearch](https://www.pyimagesearch.com/2016/09/12/softmax-classifiers-explained/)
 
 ## Raw data selection
